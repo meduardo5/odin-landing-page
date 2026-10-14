@@ -110,3 +110,25 @@ button {
     text-align: center;
 }
 
+.container-3 {
+    border: 1px solid;
+    padding: 10px; /*Added to visibly see the content of each container*/
+    background-color: rgb(255, 220, 125); /*Added to visibly see the content of each container*/
+}
+
+.quote {
+    border: 1px red solid; /*Added to visibly see the content of each container*/
+    padding: 30px 100px;
+}
+
+.statement {
+    border: 1px red solid; /*Added to visibly see the content of each container*/
+    font-style: italic;
+}
+
+.author {
+    border: 1px red solid; /*Added to visibly see the content of each container*/
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
